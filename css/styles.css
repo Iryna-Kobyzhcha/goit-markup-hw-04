@@ -219,7 +219,14 @@ margin-bottom: 50px;
 .benefits .text {
 color: var(--title-text-color);
 }
-
+.benefits-icon {
+  background-color: var(--second-background-color);
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+/* .benefits-icon:not(:last-child) {
+  margin-right: 30px;
+} */
 /* чим займаємось */
 .work-list {
   display: flex;
