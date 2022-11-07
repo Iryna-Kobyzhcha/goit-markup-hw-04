@@ -6,6 +6,7 @@
   --primary-background-color: #FFFFFF;
   --accent-background-color: #2F303A;
   --second-background-color: #F5F4FA;
+  --hero-background-color: #C4C4C4;
 }
 body {
   background-color: var(--primary-background-color);
@@ -84,7 +85,9 @@ line-height: 1.19;
 }
 .contacts {
   display: flex;
+  gap: 40px;
   margin-left: auto;
+  align-items: center;
 }
 
 .contacts .contact + .contact {
@@ -105,6 +108,21 @@ letter-spacing: 0.02em;
 .contacts a:focus {
   color: var(--accent-color);
 }
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.envelopep, .smartphone {
+  fill: currentColor;
+}
+/* .header-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+} */
 /* герой */
 .section {
   padding: 94px 0;
@@ -113,10 +131,21 @@ letter-spacing: 0.02em;
 padding-top: 0;
 }
 .hero {
-  background-color: var(--accent-background-color);
+  max-width: 1600px;
+  background-color: var(--hero-background-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
+  rgba(47, 48, 58, 0.4)),
+  url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin: auto;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  
 }
 .hero-title {
 margin-left: auto;
@@ -232,6 +261,35 @@ padding-bottom: 30px;
 }
 .workers .text {
   color: var(--title-text-color);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--primary-background-color);
+  color: #AFB1B8;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+}
+
+.socials-icon {
+  fill: currentColor;
 }
 /* портфоліо */
 .auth-nav {
