@@ -290,6 +290,40 @@ padding-bottom: 30px;
 .socials-icon {
   fill: currentColor;
 }
+
+/* постійні клієнти */
+.clients  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.clients-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px 32px;
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 4px;
+  background-color: var(--primary-background-color);
+  color: #AFB1B8;
+}
+
+.client-icon:hover,
+.client-icon:focus {
+  background-color: var(--primary-background-color);
+  color: var(--accent-color);
+}
+
+.client-icon {
+  fill: currentColor;
+}
 /* портфоліо */
 .auth-nav {
   display: flex;
@@ -383,3 +417,17 @@ color: var(--title-text-color);
   color: var(--accent-color);
 }
 
+.footer-contacts {
+  float: left;
+  margin-right: 70px;
+}
+.footer-networks{
+
+
+}
+.footer-title {
+  color: var(--second-text-color);
+}
+.networks {
+
+}
