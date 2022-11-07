@@ -85,7 +85,6 @@ line-height: 1.19;
 }
 .contacts {
   display: flex;
-  gap: 40px;
   margin-left: auto;
   align-items: center;
 }
