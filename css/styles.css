@@ -445,10 +445,11 @@ color: var(--title-text-color);
   color: var(--second-text-color);
   background: rgba(255, 255, 255, 0.1);
 } 
-/* .socials .f:hover,
-.socials .f:focus,{
-  background-color:var(--accent-color);
+.socials .link:focus, 
+.socials .link:hover {
+    color: var(--second-text-color);
+    background-color:var(--accent-color);
 }
 .socials .f {
 fill: currentColor;
-}  */
+} 
